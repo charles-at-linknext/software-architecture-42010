@@ -15,7 +15,7 @@ A standard system architecture desctiption. It aims to conform the ISO 42010 to 
 
 ### 2.1 Concept Formulation
 
-*Architecture View*.
+*Organization View*. 家裡（User）佈署 Healthcare Station，平台服務商（Platform）提供 Backend Service。專家（Experts）可得到觀看數據的授權，並提供 User 健康照護顧問。
 
 ### 2.2 Hierarchy of the System
 ### 2.3 System Components
