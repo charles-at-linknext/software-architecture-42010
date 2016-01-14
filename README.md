@@ -15,11 +15,13 @@ A standard system architecture desctiption. It aims to conform the ISO 42010 to 
 
 ### 2.1 Concept Formulation
 
+#### 2.1.1 Organization
+
 **Organization View**. 家裡（User）佈署 Sensors，平台服務商（Platform）提供 Backend Service。專家（Experts）可得到觀看數據的授權，並提供 User 健康照護顧問。
 
-**Deploy View**. Sensors 經由 IoT Gateway 推送（Push）數據給 Platform。
+#### 2.1.2 Technical
 
-**Technical View**. 使用 Web 開放標準。
+**Technical View**. Sensors 經由 IoT Gateway 推送（Push）數據給 Platform。使用 Web 開放標準。
 
 
 ### 2.2 Hierarchy of the System
