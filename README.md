@@ -15,6 +15,8 @@ A standard system architecture desctiption. It aims to conform the ISO 42010 to 
 
 ### 2.1 Concept Formulation
 
+**Stakeholders**. 用戶（User）希望可以偵測居家空氣品質，並保障數據的私有性（Privacy）。架構師（Developer）希望能以 Web 開放標準建構系統，或滿足 W3C Web of Things 規範；考量未來產品線的擴充，須符合 ISO 42010 與 IEC 62304。
+
 **Organization View**. 家裡（User）佈署 Sensors，平台服務商（Platform）提供 Backend Service。專家（Experts）可得到觀看數據的授權，並提供 User 健康照護顧問。
 
 **Viewpoints**.
