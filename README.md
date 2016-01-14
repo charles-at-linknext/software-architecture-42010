@@ -14,6 +14,9 @@ A standard system architecture desctiption. It aims to conform the ISO 42010 to 
 ## 2. Basics of System Architectures
 
 ### 2.1 Concept Formulation
+
+*Architecture View*.
+
 ### 2.2 Hierarchy of the System
 ### 2.3 System Components
 
