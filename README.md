@@ -21,7 +21,9 @@ A standard system architecture desctiption. It aims to conform the ISO 42010 to 
 
 **Viewpoints**.
 
-**Technical View**. Sensors 經由 IoT Gateway 推送（Push）數據給 Platform。使用 Web 開放標準。
+**Technical View**. Sensors 經由 IoT Gateway 推送（Push）數據給 Platform。使用 Web 開放標準。參照圖 2.1。
+
+![Figure 2-1](https://wotcity.com/images/block/coap-lwm2m.png)
 
 
 
