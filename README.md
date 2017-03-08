@@ -15,7 +15,7 @@ A standard system architecture desctiption. It aims to conform the ISO 42010 to 
 
 ### 2.1 Concept Formulation
 
-**Stakeholders**. 用戶（User）希望可以偵測居家空氣品質，並保障數據的私有性（Privacy）。架構師（Developer）希望能以 Web 開放標準建構系統，或滿足 W3C Web of Things 規範；考量未來產品線的擴充，須符合 ISO 42010 與 IEC 62304。
+**Stakeholders**. 用戶（User）希望可以偵測居家空氣品質，並保障數據的私有性（Privacy）。架構師（Developer）希望能以 Web 開放標準建構系統，或滿足 W3C Web of Things 規範；考量未來產品線的擴充，須符合 ISO 42010 與 IEC 62304。醫生（Doctor）接收用戶的居家空氣品質，以判斷是否要示警。商店 （Store）接收用戶的居家空氣品質，以適時提供空氣清淨機。
 
 **Organization View**. 家裡（User）佈署sSensors，平台服務商（Platform）提供 Backend Service。專家（Experts）可得到觀看數據的授權，並提供 User 健康照護顧問。
 
@@ -26,6 +26,10 @@ A standard system architecture desctiption. It aims to conform the ISO 42010 to 
 **Viewpoints**. 使用 SPA 設計 IoT App 與 IoT Cloud（Web Service Backend）。使用 FreeRTOS tasking 的 IoT Device。使用 RFC 7252。
 
 ![Figure 2-1](https://wotcity.com/images/block/coap-lwm2m.png)
+
+**Viewpoints**. 用戶數據在傳輸過程需加密。
+
+**Viewpoints**. IoT Gateway 需具有內儲。
 
 ### 2.2 Hierarchy of the System
 ### 2.3 System Components
